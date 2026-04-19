@@ -293,6 +293,49 @@ nav ul li {
 .t-book{
     display: flex;
     justify-content: center;
-    
+    gap: 12rem;
+    align-items: start;
+    padding: 4rem 7rem;
 }
+.t-book h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.t-book p{
+    
+    font-size: 1.2rem;
+    line-height: 3rem;
 
+}
+footer{
+    background: #210302;
+    text-align: center;
+    color: var(--color-border);
+}
+footer h1{
+    text-align: center;
+    background: transparent;
+}
+footer h1 img{
+    padding-top: 2rem;
+    background: transparent;
+    height: 5rem;
+}
+.l{
+    display: flex;
+    padding: 1rem 0rem;
+    justify-content: center;
+    gap: 3rem;
+    text-decoration: underline;
+}
+.s{
+     display: flex;
+     padding: 2rem 0rem;
+    justify-content: center;
+    gap: 3rem;
+}
+footer h4{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 2rem 0rem;
+}
