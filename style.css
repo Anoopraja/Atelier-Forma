@@ -233,11 +233,12 @@ nav ul li {
     font-size: 1.4rem;
     line-height: 2rem;
 }
-nav ul{
+
+nav ul {
     display: none;
 }
 
- 
+
 .artist-profile {
     width: 100%;
     display: flex;
@@ -355,6 +356,12 @@ footer h4 {
     padding: 2rem 0rem;
 }
 
+.ps {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
 @media (max-width: 1300px) {
     .container1 {
         flex-direction: column;
@@ -362,6 +369,16 @@ footer h4 {
         align-items: center;
         width: 100%;
         padding: 1rem 2rem;
+    }
+
+    .left1 {
+        text-align: center;
+    }
+
+    .right1 {
+        overflow: hidden;
+        height: 50rem;
+        width: 100%;
     }
 
     .artist-profile {
@@ -391,40 +408,69 @@ footer h4 {
         align-items: end;
 
     }
+
     .t-area p {
-    padding-bottom: 1rem;
-    font-weight: 200;
-    font-size: .9rem;
-    width: 30rem;
-    text-align: start;
-    /* display: block; */
-    /* align-self: center; */
-}
-.e-p-gall {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-}
-.t-book {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5rem;
-    align-items: center;
-    padding: 4rem 7rem;
-}
-nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 22rem;
-    padding: 2rem 10rem;
-    height: 3rem;
-    background: var(--color-cards);
-}
+        width: 20rem;
+        padding-bottom: 1rem;
+        font-weight: 200;
+        font-size: .9rem;
+        text-align: start;
+        /* display: block; */
+        /* align-self: center; */
+    }
+
+    .left1 p {
+        font-size: 1rem;
+        font-weight: 300;
+        width: 25rem;
+    }
+
+    .left1 h3 {
+        padding-bottom: 2rem;
+        font-size: 4rem;
+        font-weight: 300;
+        width: 30rem;
+    }
+
+    .e-p-gall {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .t-book {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        padding: 4rem 7rem;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        padding: 2rem 10rem;
+        height: 3rem;
+        background: var(--color-cards);
+    }
+
+    .right1 img {
+        overflow: hidden;
+        height: 100vw;
+        width: auto;
+    }
+
+    .ps {
+        width: 19rem;
+        text-align: center;
+        
+    }
 }
