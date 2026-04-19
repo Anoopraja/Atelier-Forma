@@ -1,0 +1,298 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: var(--font-sans-serif);
+
+}
+
+:root {
+    /* Primary Colors */
+    --deep-maroon: #4b0d0d;
+    /* deep maroon */
+    --color-maroon-dark: #2e0606;
+    --color-maroon-light: #6a1a1a;
+
+    /* Neutral Colors */
+    --color-main-background: #f5f3f1;
+    /* main background */
+    --color-cards: #ffffff;
+    /* cards / sections */
+    --color-border: #e5e2df;
+
+    /* Text Colors */
+    --color-headings: #1f1f1f;
+    /* headings */
+    --color-paragraph: #5a5a5a;
+    /* paragraph */
+    --color-paragraph-light: #ffffff;
+
+    /* Accent */
+    --color-accent-light-beige-tone: #d6ccc2;
+    /* light beige tone */
+
+    /* Buttons */
+    --btn-bg: var(--color-maroon-dark);
+    --btn-text: var(--color-paragraph-light);
+    --btn-hover: var(--color-headings);
+
+    /* Typography */
+    --font-sans-serif: 'Inter', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+    padding: 2rem 10rem;
+    height: 3rem;
+    background: var(--color-cards);
+}
+
+nav img {
+    height: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    text-transform: capitalize;
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.right1 {
+    overflow: hidden;
+}
+
+.right1 img {
+    padding: 3rem 5rem;
+    height: 45rem;
+}
+
+.left1 {
+    overflow: hidden;
+    padding: 10rem 5rem;
+    /* background: red; */
+}
+
+.left1 h3 {
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 300;
+    width: 35rem;
+}
+
+.left1 p {
+    font-size: 1rem;
+    font-weight: 300;
+    width: 35rem;
+}
+
+.left1 button,
+.btn button {
+    margin: 2rem 0rem;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 2rem;
+    background-color: var(--color-maroon-dark);
+    border: none;
+    color: var(--color-accent-light-beige-tone);
+}
+
+.all-ex {
+    margin: 3rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.all-ex h4 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.all-ex h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.btn button {
+    width: 15rem;
+}
+
+.en-p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem
+}
+
+.en-p .box {
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    align-items: end;
+}
+
+.en-p .box img {
+    height: 16rem;
+}
+
+.t-area h4 {
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+.t-area h3 {
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.t-area p {
+    padding-bottom: 1rem;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.show {
+    width: 100%;
+    background: var(--color-maroon-dark);
+    color: var(--color-main-background);
+    text-align: center;
+}
+
+.show h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* .show p{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    width: 38rem;
+} */
+.im {
+    /* background: #e5e2df; */
+    height: 30rem;
+    min-width: auto;
+    max-width: auto;
+    margin: 3rem 4rem;
+    overflow: hidden;
+
+}
+
+.show img {
+    height: 30rem;
+}
+
+.aaf {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    align-items: end;
+
+}
+
+.aaf h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.aaf p {
+    font-weight: 200;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.artist {}
+
+.artist-profile {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.img img {
+    width: 17rem;
+}
+
+.name h3 {
+    padding: .5rem 0rem;
+    font-weight: 200;
+}
+
+.name h4 {
+    font-weight: 300;
+
+}
+.p-btn{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.e-s-part{
+    padding: 4rem 0rem;
+    width: 100%;
+    background: var(--color-maroon-dark);
+
+}
+.e-s-part h1{
+    padding-top: 2rem ;
+    font-size: 3rem;
+    color: var(--color-cards);
+    font-weight: 300;
+    text-align: center;
+}
+.e-s-part p{
+    padding: 2rem 0rem;
+    color: var(--color-cards);
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+.e-p-gall{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.p img{
+    width: 24rem;
+}
+.t-book{
+    display: flex;
+    justify-content: center;
+    
+}
+
