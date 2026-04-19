@@ -406,6 +406,14 @@ footer h4 {
         align-items: center;
         justify-content: space-between;
     }
+    aaf h1{
+        text-align: center;
+    }
+    .aaf p {
+    text-align: center;
+    font-weight: 200;
+    
+}
 
     .aaf {
         display: flex;
@@ -548,6 +556,7 @@ footer h4 {
     }
 
     .aaf h1 {
+        padding-right:3rem ;
         font-size: 2rem;
     }
 
