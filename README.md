@@ -1,1 +1,1 @@
-simple html css and js web page designing
+simple html css and js web page designed
